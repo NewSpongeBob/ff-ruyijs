@@ -132,7 +132,7 @@ nav .links a:hover { color: var(--ink); }
 .sponsor .label { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink3); margin: 0 0 14px; }
 .sponsor .card { display: inline-flex; align-items: center; gap: 20px; max-width: 100%; padding: 12px 20px 12px 22px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; text-decoration: none; text-align: left; transition: border-color .2s, box-shadow .2s, transform .2s; }
 .sponsor .card:hover { border-color: color-mix(in srgb, var(--ink) 18%, var(--line)); box-shadow: var(--shadow); transform: translateY(-1px); }
-.sponsor .card .sp-name { font-weight: 650; font-size: 16px; color: var(--ember); white-space: nowrap; }
+.sponsor .card img { flex: none; height: 32px; width: auto; }
 .sponsor .card hr { flex: none; width: 1px; height: 28px; margin: 0; border: 0; background: var(--line); }
 .sponsor .card span { font-size: 14px; line-height: 1.5; color: var(--ink2); }
 .sponsor .card i { flex: none; font-style: normal; color: var(--ink3); transition: color .2s, transform .2s; }
@@ -273,8 +273,8 @@ footer a:hover { color: var(--ink); }
 
   <aside class="sponsor">
     <p class="label" data-i18n="sponsor.label">Sponsored by</p>
-    <a class="card" href="https://fastaitoken.com" target="_blank" rel="noopener sponsored">
-      <span class="sp-name">FastAIToken</span>
+    <a class="card" href="https://www.fastaitoken.com" target="_blank" rel="noopener sponsored">
+      <img src="sponsor-fastai.png" alt="FastAIToken">
       <hr>
       <span data-i18n="sponsor.desc">Claude / GPT / DeepSeek one-stop API — up to 94% off, enterprise billing</span>
       <i aria-hidden="true">→</i>
